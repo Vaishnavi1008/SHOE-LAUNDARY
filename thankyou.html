@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+  <script src="bootstrap-4.4.1-dist/js/jquery.min.js"></script>
+  <script src="bootstrap-4.4.1-dist/js/popper.min.js"></script>
+  <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  
+
+  <title>Clean Steps-The Shoe Laundry</title>
+</head>
+
+<body>
+
+  <!--Header and navbar-->
+
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg " style="background-color:transparent; " id="navbar">
+      <div class="navbar-brand" href="#"><img src="image/logo-via-logohub.png"></div>
+      <button class="navbar-toggler" style="background-color: black;" type="button" data-toggle="collapse"
+        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link avi" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link avi" href="services.html">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link avi" href="team.html">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link avi" href="gallery.html">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link avi" href="bookorder/">BOOKORDER</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+  <!--Header and navbar close-->
+  <!-- Slider-->
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <img src="image/thanks-bnr.jpg" class="d-block w-100" alt="..." style="height:100vh;">
+      </div>
+    </div>
+  </div>
+  <!--slider close-->
+  <!--footer-->
+</body>
+<!--/Footer-->
+<script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0px";
+    } else {
+      document.getElementById("navbar").style.top = "-75px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+</script>
+
+
+</html>

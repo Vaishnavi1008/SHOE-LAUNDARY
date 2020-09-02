@@ -1,0 +1,9 @@
+div#navbarNavDropdown{
+    margin-left:25%!important;
+}
+ul.navbar-nav{
+    display:block!important;
+}
+ul.navbar-nav li{
+    float: left;
+}
